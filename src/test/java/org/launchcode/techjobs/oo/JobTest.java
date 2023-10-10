@@ -1,5 +1,7 @@
 package org.launchcode.techjobs.oo;
 
+import org.junit.Test;
+
 public class JobTest {
     //TODO: Create your unit tests here
 
@@ -36,4 +38,17 @@ public class JobTest {
         assertFalse(job1.equals(job2));
     }
 
+    //TODO tests task 5
+    @Test
+    public void testToStringStartsAndEndsWithNewLine() {
+
+    }
+
+    @Test
+    public void testToStringHandlesEmptyField(){
+
+    }
 }
+
+//As usual, the autograding tests are very picky about capitalization and spaces,
+// so your code should match the format shown above exactly.
