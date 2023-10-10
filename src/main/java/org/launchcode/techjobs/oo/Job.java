@@ -34,16 +34,16 @@ public class Job {
 //TODO: Add toString and linSeperator
 //TODO: If a field is empty, the method should add, “Data not available” after the label.
 
-//@Override
-//public String toString() {
-//        return  System.lineSeparator() +
-//            "ID: " + id + System.lineSeparator() +
-//            "Name: " + checkStringForEmpty(name) + System.lineSeparator() +
-//            "Employer: " + checkStringForEmpty(String.valueOf(employer)) + System.lineSeparator() +
-//            "Location: " + checkStringForEmpty(String.valueOf(location)) + System.lineSeparator() +
-//            "Position Type: " + checkStringForEmpty(String.valueOf(positionType)) + System.lineSeparator() +
-//            "Core Competency: " + checkStringForEmpty(String.valueOf(coreCompetency)) + System.lineSeparator();
-//}
+@Override
+public String toString() {
+        return  System.lineSeparator() +
+            "ID: " + id + System.lineSeparator() +
+            "Name: " + checkStringForEmpty(name) + System.lineSeparator() +
+            "Employer: " + checkStringForEmpty(String.valueOf(employer)) + System.lineSeparator() +
+            "Location: " + checkStringForEmpty(String.valueOf(location)) + System.lineSeparator() +
+            "Position Type: " + checkStringForEmpty(String.valueOf(positionType)) + System.lineSeparator() +
+            "Core Competency: " + checkStringForEmpty(String.valueOf(coreCompetency)) + System.lineSeparator();
+}
 
 
     // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal" when their id fields
