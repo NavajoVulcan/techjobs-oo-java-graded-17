@@ -32,7 +32,7 @@ public class Job {
     }
 
 //TODO: Add toString and linSeperator
-//TODO: If a field is empty, the method should add, “Data not available” after the label.
+//TODO: If a field is empty, the method should add, “Data not available" after the label.
 
 @Override
 public String toString() {
@@ -44,6 +44,12 @@ public String toString() {
             "Position Type: " + checkStringForEmpty(String.valueOf(positionType)) + System.lineSeparator() +
             "Core Competency: " + checkStringForEmpty(String.valueOf(coreCompetency)) + System.lineSeparator();
 }
+
+    private String checkStringForEmpty(String string) {
+        if (string.isEmpty())
+                return "Data not available";
+        else return string;
+    }
 
 
     // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal" when their id fields
