@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="at jobfield, redundancies reduce">
+    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="many bugs fixed, used some intellij suggestions. ??? Might work? Lines 23-33">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +207,31 @@
       <option name="project" value="LOCAL" />
       <updated>1697499165579</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dependencies fixed">
+      <option name="closed" value="true" />
+      <created>1697675352290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697675352290</updated>
+    </task>
+    <task id="LOCAL-00010" summary="dependencies fixed">
+      <option name="closed" value="true" />
+      <created>1697675406732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697675406732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="many bugs fixed, used some intellij suggestions. ??? Might work? Lines 23-33">
+      <option name="closed" value="true" />
+      <created>1697676308207</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697676308207</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +240,8 @@
     <MESSAGE value="now is good time to save and push, Unit Testing plus start to string" />
     <MESSAGE value="now is good time to save and push, Unit Testing plus start to string need data not available" />
     <MESSAGE value="at jobfield, redundancies reduce" />
-    <option name="LAST_COMMIT_MESSAGE" value="at jobfield, redundancies reduce" />
+    <MESSAGE value="dependencies fixed" />
+    <MESSAGE value="many bugs fixed, used some intellij suggestions. ??? Might work? Lines 23-33" />
+    <option name="LAST_COMMIT_MESSAGE" value="many bugs fixed, used some intellij suggestions. ??? Might work? Lines 23-33" />
   </component>
 </project>
