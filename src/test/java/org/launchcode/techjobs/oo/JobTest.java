@@ -17,7 +17,7 @@ public class JobTest {
 
     @Test
     public void testJobConstructorSetsAllFields() {
-       Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"),
+       Job job1 = new Job("Product Tester", new Employer("ACME"), new Location("Desert"),
                 new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
         assertEquals("Product Tester", job1.getName());
@@ -36,15 +36,15 @@ public class JobTest {
 
     @Test
     public void testJobsForEquality() {
-        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        Job job2 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        Job job1 = new Job("Product Tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        Job job2 = new Job("Product Tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         assertNotEquals(job1, job2);
     }
 
     //TODO tests task 5
     @Test
     public void testToStringStartsAndEndsWithNewLine() {
-        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        Job job1 = new Job("Product Tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         assertTrue(job1.toString().startsWith(lineSeparator()));
         assertTrue(job1.toString().endsWith(lineSeparator()));
 
@@ -52,15 +52,15 @@ public class JobTest {
 
     @Test
     public void testToStringHandlesEmptyField() {
-        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        assertEquals(lineSeparator() + "ID: " + job1.getId() + lineSeparator() + "Name: Product tester" + lineSeparator() + "Employer: Data not available" + lineSeparator() + "Location: Desert" + lineSeparator() + "Position Type: Quality control" + lineSeparator() + "Core Competency: Data not available" + lineSeparator(),job1.toString());
+        Job job1 = new Job("Product Tester", new Employer(""), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency(""));
+        assertEquals(lineSeparator() + "ID: " + job1.getId() + lineSeparator() + "Name: Product Tester" + lineSeparator() + "Employer: Data not available" + lineSeparator() + "Location: Desert" + lineSeparator() + "Position Type: Quality control" + lineSeparator() + "Core Competency: Data not available" + lineSeparator(),job1.toString());
 
     }
 
     @Test
     public void testToStringContainsCorrectLabelsAndData() {
-        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        assertEquals(lineSeparator() + "ID: " + job1.getId() + lineSeparator() + "Name: Product tester" + lineSeparator() + "Employer: ACME" + lineSeparator() + "Location: Desert" + lineSeparator() + "Position Type: Quality control" + lineSeparator() + "Core Competency: Persistence" + lineSeparator(), job1.toString());
+        Job job1 = new Job("Product Tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        assertEquals(lineSeparator() + "ID: " + job1.getId() + lineSeparator() + "Name: Product Tester" + lineSeparator() + "Employer: ACME" + lineSeparator() + "Location: Desert" + lineSeparator() + "Position Type: Quality control" + lineSeparator() + "Core Competency: Persistence" + lineSeparator(), job1.toString());
     }
 
 }
